@@ -1,4 +1,3 @@
-# Missing frozen string literal
 class QuestionsController < ApplicationController
   def ask
   end

@@ -1,3 +1,33 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {  
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.submit{
+  border-color: blue;
+}
+ .questions{
+  border-color: blue;
+}
+p{
+  text-align: center;
+  color: darkslategray;
+}
+.question p {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.answer p{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  border: 30px solid transparent;
+font-size: 40px;
+background-color: rgb(150, 215, 255);
+border-image: url("./132d0b11f96dcffaa700966900312a52.jpg") 150 round;
+}

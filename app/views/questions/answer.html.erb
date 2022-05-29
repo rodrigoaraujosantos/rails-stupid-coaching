@@ -1,9 +1,14 @@
-<h1>STUPID COACHING</h1>
-
-<p><%= @questions %></p>
-<p>--YOU</p>
-
-<p><%= @answer %></p>
-<p>--YOUR COACH</p>
-
-<%= link_to "return", ask_path %>
+<div class="container">
+  <h1>STUPID COACHING</h1>
+  <div class="question">
+    <p><%= @questions %></p>
+    <p>--YOU--</p>
+  </div>
+  <div class="answer">
+    <p><%= @answer %></p>
+    <p>--YOUR COACH--</p>
+  </div>
+  <div class="link">
+    <p><%= link_to "ASK A NEW QUESTION", ask_path %></p>
+  </div>
+</div>
